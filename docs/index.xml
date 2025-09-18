@@ -6,8 +6,15 @@
     <description>Recent content on 札刻 | Zak刻 (Zak-Ke)</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 18 Sep 2025 07:31:24 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 10:20:47 +0800</lastBuildDate>
     <atom:link href="https://zak-ke.github.io/zak-ke/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third Post</title>
+      <link>https://zak-ke.github.io/zak-ke/posts/third-post/</link>
+      <pubDate>Thu, 18 Sep 2025 10:20:47 +0800</pubDate>
+      <guid>https://zak-ke.github.io/zak-ke/posts/third-post/</guid>
+      <description></description>
+    </item>
     <item>
       <title>First Post</title>
       <link>https://zak-ke.github.io/zak-ke/posts/first-post/</link>
