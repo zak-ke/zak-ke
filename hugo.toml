@@ -41,14 +41,6 @@ summaryLength = 80
     hiddenInList = false
     hiddenInSingle = false
 
-  # 社群圖示（要的留、不用的刪）
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/zak-ke"
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:dng.workplace@gmail.com"
-
 [menu]
   [[menu.main]]
     identifier = "home"
@@ -85,10 +77,6 @@ summaryLength = 80
     name = "搜尋"
     url = "/search/"
     weight = 6
-
-[params.homeInfoParams]
-  Title = "札刻 Zak-Ke"
-  Content = "記錄小說創作與翻譯的空間"
 
 [params.socialIcons]
   [[params.socialIcons]]
