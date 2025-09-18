@@ -8,6 +8,9 @@ theme = "PaperMod"
 pagination = { pageSize = 10 }
 summaryLength = 80
 
+relativeURLs = true
+canonifyURLs = true
+
 [taxonomies]
   tag = "tags"
   category = "categories"
