@@ -60,3 +60,15 @@ theme = "PaperMod"
     url = "/faq/"
     weight = 5
 
+[params.homeInfoParams]
+  Title = "札刻 Zak-Ke"
+  Content = "記錄小說創作與翻譯的空間"
+
+[params.socialIcons]
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/zak-ke"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:dng.workplace@gmail.com"
+
