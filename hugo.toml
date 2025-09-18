@@ -46,9 +46,6 @@ canonifyURLs = true
   [params.assets]
     disableFingerprinting = true   
 
-    [[params.customCSS]]
-    link = "css/stylesheet.css"
-
 [menu]
   [[menu.main]]
     identifier = "home"
