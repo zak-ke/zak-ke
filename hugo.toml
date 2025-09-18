@@ -43,6 +43,12 @@ canonifyURLs = true
     hiddenInList = false
     hiddenInSingle = false
 
+  [params.assets]
+    disableFingerprinting = true   
+
+    [[params.customCSS]]
+    link = "css/stylesheet.css"
+
 [menu]
   [[menu.main]]
     identifier = "home"
