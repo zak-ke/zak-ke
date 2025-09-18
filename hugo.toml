@@ -4,6 +4,11 @@ languageCode = "zh-tw"
 title = "札刻 | Zak刻 (Zak-Ke)"
 theme = "PaperMod"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
 [params]
   author = "Zak"
   defaultTheme = "auto" # auto = 跟隨系統, dark = 深色, light = 淺色
@@ -12,6 +17,17 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
+
+# 首頁上方介紹（PaperMod 內建）
+  homeInfoParams = { Title = "札刻 / Zak-Ke", Content = "創作與翻譯的刻痕。這裡收錄小說章節、公告與常見問題。" }
+
+  # 社群 icon（要用哪些就留哪些）
+  socialIcons = [
+    { name = "github", url = "https://github.com/zak-ke" },
+    { name = "threads", url = "#" },
+    { name = "x", url = "#" },
+    { name = "instagram", url = "#" }
+  ]
 
 [menu]
   [[menu.main]]
@@ -26,4 +42,21 @@ theme = "PaperMod"
     url = "/posts/"
     weight = 2
 
+  [[menu.main]]
+    identifier = "announcement"
+    name = "會員公告"
+    url = "/announcement/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "novels"
+    name = "小說列表"
+    url = "/novels/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "faq"
+    name = "網站問題"
+    url = "/faq/"
+    weight = 5
 

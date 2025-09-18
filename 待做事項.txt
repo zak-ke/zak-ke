@@ -1,0 +1,99 @@
+Ruby’s Garden 有哪些功能（觀察重點）
+
+導覽列：會員公告、小說列表、網站問題（FAQ）。頁尾還有 網站地圖、韓漫小說資料庫 與社群連結（Vocus / Threads / IG / X）。
+Ruby's Garden
++1
+
+首頁區塊：
+
+「Featured 精選作品卡**」＋多語/別名補充。
+Ruby's Garden
+
+Latest Chapters 與 Latest（最新章節／最新貼文串）。
+Ruby's Garden
+
+Tag Cloud（標籤雲），作品帶有類型標籤（如 R19 / 歐式宮廷 / 連載中 / 完結）。
+Ruby's Garden
+
+會員／贊助流程：
+
+「請我喝咖啡」頁說明：付款方式（信用卡 / Apple Pay / 支付寶）；贊助系統與本站未串接 → 站主手動開通會員；贊助後請到左下角 Chatbox 留言付款方式與 Email；09:00–22:00通常很快處理。
+Ruby's Garden
+
+聊天元件：頁面指示 左下角 Chatbox 做客服／開通信息。
+Ruby's Garden
+
+會員內容鎖：章節列表出現 lock 標記（登入會員可看）。
+Ruby's Garden
+
+版權/站規：禁止盜轉與商用，違者解除會員 等聲明。
+Ruby's Garden
+
+技術棧：頁尾顯示 Published with Ghost（Ghost 架站）。
+Ruby's Garden
++1
+
+用 Hugo + GitHub Pages 的「對應做法」
+
+重點：GitHub Pages 是純靜態，無法做真正的會員登入/鎖文。先把結構與內容體驗做滿，會員可先走「手動流程 + 不公開連結」當過渡，日後若要「真鎖文」再換到支援會員的託管（或自架）。
+
+導覽列三頁
+
+會員公告：content/announcement/_index.md（寫贊助流程說明與支持按鈕連結）。
+
+小說列表：用 taxonomy（例如 categories/series）或建 content/novels/_index.md + 自動列出各作品。
+
+網站問題（FAQ）：content/faq/_index.md。
+
+首頁區塊
+
+Featured：文章 front matter 加 featured: true，首頁模板把 featured 排到最前。
+
+Latest Chapters / Latest：首頁模板抓最新文章（可用 section = posts 或 chapters）。
+
+Tag Cloud：Hugo 內建 taxonomy；PaperMod 也支援標籤頁。
+
+社群與網站地圖
+
+hugo.toml 設定社群連結；sitemap Hugo 會自動產生 sitemap.xml，也可在頁尾放一個「網站地圖」頁連到 /sitemap.xml 或自製索引頁。
+Ruby's Garden
+
+贊助／Chatbox
+
+會員公告頁放「前往支持」按鈕（外部贊助連結）。
+
+Chatbox：把提供的嵌入碼貼到 layouts/partials/footer.html 或 PaperMod 的 assets/partials，即可出現左下角對話框（和對方一樣在公告中引導用戶用 Chatbox 留資料）。
+Ruby's Garden
+
+「過渡版會員」做法（靜態站可行的範圍）
+
+不公開連結：付款後用 Chatbox 留 email，人工回覆「隱藏路徑」連結；頁面不入導覽、不入索引（front matter 加 private: true 自定義，並把列表模板過濾掉）。
+
+或用外部閱讀清單（如雲端硬碟只分享連結）過渡。
+
+這只是權宜之計，不是真正保護。之後要真正會員鎖文，建議換 Ghost（自架或託管）或 Netlify + Identity（非 GitHub Pages）。
+
+版權宣告
+
+在 content/announcement 或頁尾 partial 寫上你的版權/站規。
+
+建議的下一步（我們馬上能做）
+
+我幫你放好三個固定頁的檔案樣板：會員公告 / 小說列表 / FAQ（含段落骨架）。
+
+幫你調 PaperMod 首頁：
+
+顯示「Featured」＋「Latest Chapters / Latest」。
+
+加社群連結、頁尾固定區塊（可放站規）。
+
+加「支持我」按鈕與 Chatbox 插入位。
+
+你只要說一聲「好」，我就把：
+
+檔案結構要放哪、
+
+front matter 要寫什麼、
+
+hugo.toml 要補哪些參數、
+全部直接給你可以貼的內容。
