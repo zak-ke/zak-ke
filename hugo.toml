@@ -5,7 +5,7 @@ title = "札刻 | Zak刻 (Zak-Ke)"
 theme = "PaperMod"
 
 # 列表每頁數、摘要長度
-paginate = 10
+pagination = { pageSize = 10 }
 summaryLength = 80
 
 [taxonomies]
