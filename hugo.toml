@@ -9,25 +9,45 @@ theme = "PaperMod"
   category = "categories"
   series = "series"
 
+
+# 讓首頁輸出 JSON 供搜尋使用
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 列表每頁數、摘要長度
+paginate = 10
+summaryLength = 80
+
 [params]
   author = "Zak"
   defaultTheme = "auto" # auto = 跟隨系統, dark = 深色, light = 淺色
+  disableThemeToggle = false
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
+  comments = false               # 之後要留言系統再改 true
 
-# 首頁上方介紹（PaperMod 內建）
-  homeInfoParams = { Title = "札刻 / Zak-Ke", Content = "創作與翻譯的刻痕。這裡收錄小說章節、公告與常見問題。" }
+  # 首頁上方簡介（簡潔好看）
+  [params.homeInfoParams]
+    Title = "札刻 Zak-Ke"
+    Content = "創作與翻譯的刻痕：小說章節、公告與常見問題。"
 
-  # 社群 icon（要用哪些就留哪些）
-  socialIcons = [
-    { name = "github", url = "https://github.com/zak-ke" },
-    { name = "threads", url = "#" },
-    { name = "x", url = "#" },
-    { name = "instagram", url = "#" }
-  ]
+ # 文章封面顯示規則
+  [params.cover]
+    linkFullImages = true
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  # 社群圖示（要的留、不用的刪）
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/zak-ke"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:dng.workplace@gmail.com"
 
 [menu]
   [[menu.main]]
@@ -59,6 +79,12 @@ theme = "PaperMod"
     name = "網站問題"
     url = "/faq/"
     weight = 5
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜尋"
+    url = "/search/"
+    weight = 6
 
 [params.homeInfoParams]
   Title = "札刻 Zak-Ke"

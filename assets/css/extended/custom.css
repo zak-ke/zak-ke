@@ -1,0 +1,4 @@
+/* 讓內文行高與最大寬度更舒服 */
+.post-content { line-height: 1.9; font-size: 1.06rem; }
+.main .post-entry { border-radius: 14px; padding: 0.6rem 0.8rem; }
+.container { max-width: 900px; }   /* 內文區域寬一點 */
