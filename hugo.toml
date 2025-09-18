@@ -78,7 +78,6 @@ summaryLength = 80
     url = "/search/"
     weight = 6
 
-[params.socialIcons]
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/zak-ke"
