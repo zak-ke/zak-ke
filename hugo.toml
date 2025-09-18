@@ -4,19 +4,18 @@ languageCode = "zh-tw"
 title = "札刻 | Zak刻 (Zak-Ke)"
 theme = "PaperMod"
 
+# 列表每頁數、摘要長度
+paginate = 10
+summaryLength = 80
+
 [taxonomies]
   tag = "tags"
   category = "categories"
   series = "series"
 
-
 # 讓首頁輸出 JSON 供搜尋使用
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# 列表每頁數、摘要長度
-paginate = 10
-summaryLength = 80
 
 [params]
   author = "Zak"
