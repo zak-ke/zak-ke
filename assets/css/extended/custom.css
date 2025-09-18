@@ -3,25 +3,10 @@
 .main .post-entry { border-radius: 14px; padding: 0.6rem 0.8rem; }
 .container { max-width: 900px; }   /* 內文區域寬一點 */
 
-/* 內容寬度 */
-:root { --main-width: 900px; }
-
-/* 中文閱讀友善：字體與行距 */
-body {
-  font-family: "Noto Serif TC","Noto Sans TC","Microsoft JhengHei",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  line-height: 1.9;
+/* assets/css/extended/custom.css */
+h1.site-title, .post-title, .entry-header h1 { 
+  color: #1e88e5 !important;
 }
-
-/* 導覽列字距 */
-.header .nav a { letter-spacing: .5px; }
-
-/* 文章頁內文字體大小 */
-.post-content { font-size: 18px; }
-
-/* 連結顏色 */
-a { color: #1e88e5; }
-a:hover { color: #1565c0; }
-
-/* 文章卡片陰影（如有卡片清單） */
-.article-card { box-shadow: 0 8px 26px rgba(0,0,0,.06); }
-
+body { 
+  outline: 3px solid rgba(255,0,0,.2); /* 測試用，確認有吃到樣式 */
+}
