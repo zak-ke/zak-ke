@@ -2,14 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zak-ke.github.io/zak-ke/posts/</loc>
-    <lastmod>2025-09-18T10:20:47+08:00</lastmod>
+    <loc>https://zak-ke.github.io/zak-ke/categories/%E5%85%AC%E5%91%8A/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://zak-ke.github.io/zak-ke/posts/third-post/</loc>
-    <lastmod>2025-09-18T10:20:47+08:00</lastmod>
+    <loc>https://zak-ke.github.io/zak-ke/tags/%E6%AD%90%E5%BC%8F%E5%AE%AE%E5%BB%B7%E5%A5%87%E5%B9%BB%E9%80%A3%E8%BC%89%E4%B8%AD/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/series/%E7%AC%AC%E4%B8%80%E4%B8%96%E5%AE%AE%E5%BB%B7%E6%94%BF%E6%B2%BB%E7%B7%9A/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/categories/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/posts/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/series/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/tags/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://zak-ke.github.io/zak-ke/</loc>
-    <lastmod>2025-09-18T10:20:47+08:00</lastmod>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/posts/hello-world/</loc>
+    <lastmod>2025-09-18T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://zak-ke.github.io/zak-ke/posts/first-post/</loc>
     <lastmod>2025-09-18T07:31:24+08:00</lastmod>
@@ -19,12 +37,6 @@
   </url><url>
     <loc>https://zak-ke.github.io/zak-ke/posts/hello/</loc>
     <lastmod>2025-09-18T07:02:21+08:00</lastmod>
-  </url><url>
-    <loc>https://zak-ke.github.io/zak-ke/categories/</loc>
-  </url><url>
-    <loc>https://zak-ke.github.io/zak-ke/series/</loc>
-  </url><url>
-    <loc>https://zak-ke.github.io/zak-ke/tags/</loc>
   </url><url>
     <loc>https://zak-ke.github.io/zak-ke/novels/</loc>
   </url><url>

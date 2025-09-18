@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <main class="main list" id="main">
+    <header class="page-header">
+      <h1>{{ .Site.Title }}</h1>
+      <div class="post-description">{{ with .Site.Params.homeInfoParams }}{{ .Content }}{{ end }}</div>
+    </header>
+
+    {{/* Featured（在文章 front matter 加 featured: true） */}}
+    {{ $featured := where .Site.RegularPages "Params.featured" true }}
+    {{ if gt (len $featured) 0 }}
+      <h2>Featured 精選</h2>
+      <div class="post-entry">
+        {{ range first 4 (sort $featured "Date" "desc") }}
+          <article class="post-entry">
+            <header class="entry-header"><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2></header>
+            <section class="entry-content">{{ .Summary }}</section>
+            <footer class="entry-footer">{{ .Date.Format "2006-01-02" }}</footer>
+          </article>
+        {{ end }}
+      </div>
+      <hr>
+    {{ end }}
+
+    {{/* Latest 最新文章 */}}
+    <h2>Latest 最新</h2>
+    {{ range first 10 (where .Site.RegularPages "Type" "in" (slice "posts")) }}
+      <article class="post-entry">
+        <header class="entry-header"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></header>
+        <section class="entry-content">{{ .Summary }}</section>
+        <footer class="entry-footer">{{ .Date.Format "2006-01-02" }}</footer>
+      </article>
+    {{ end }}
+  </main>
+{{ end }}
