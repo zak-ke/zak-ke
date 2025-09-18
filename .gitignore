@@ -1,0 +1,10 @@
+# Hugo
+/resources/
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the built site
+!docs/

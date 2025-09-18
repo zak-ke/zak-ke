@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zak-ke.github.io/zak-ke/posts/first-post/</loc>
+    <lastmod>2025-09-18T07:31:24+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/posts/</loc>
+    <lastmod>2025-09-18T07:31:24+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/posts/second-post/</loc>
+    <lastmod>2025-09-18T07:31:24+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/</loc>
+    <lastmod>2025-09-18T07:31:24+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/posts/hello/</loc>
+    <lastmod>2025-09-18T07:02:21+08:00</lastmod>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/categories/</loc>
+  </url><url>
+    <loc>https://zak-ke.github.io/zak-ke/tags/</loc>
+  </url>
+</urlset>
