@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on 札刻 | Zak刻 (Zak-Ke)</title><link>https://zak-ke.github.io/posts/</link><description>Recent content in Posts on 札刻 | Zak刻 (Zak-Ke)</description><generator>Hugo -- 0.150.0</generator><language>zh-tw</language><lastBuildDate>Thu, 18 Sep 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://zak-ke.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>三世惡役千金的微小復仇計劃</title><link>https://zak-ke.github.io/posts/00a-villainesss-small-revenge-plan-that-only-lives-three-times/00-001/</link><pubDate>Thu, 18 Sep 2025 12:00:00 +0800</pubDate><guid>https://zak-ke.github.io/posts/00a-villainesss-small-revenge-plan-that-only-lives-three-times/00-001/</guid><description>&lt;p&gt;亞莉蕾緹·卡尼斯。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 札刻 | Zak刻 (Zak-Ke)</title>
+    <link>https://zak-ke.github.io/posts/</link>
+    <description>Recent content in Posts on 札刻 | Zak刻 (Zak-Ke)</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 18 Sep 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://zak-ke.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>三世惡役千金的微小復仇計劃</title>
+      <link>https://zak-ke.github.io/posts/00a-villainesss-small-revenge-plan-that-only-lives-three-times/00-001/</link>
+      <pubDate>Thu, 18 Sep 2025 12:00:00 +0800</pubDate>
+      <guid>https://zak-ke.github.io/posts/00a-villainesss-small-revenge-plan-that-only-lives-three-times/00-001/</guid>
+      <description>&lt;p&gt;亞莉蕾緹·卡尼斯。&lt;/p&gt;
 &lt;p&gt;她是貝爾特爾帝國史上前所未有的惡女。
 兩次都被背叛，是世上最愚蠢的惡女。&lt;/p&gt;
 &lt;hr&gt;
@@ -79,4 +94,28 @@
 &lt;p&gt;『現在是誰在對我發火？』&lt;br&gt;
 亞莉蕾緹心中湧起一股怒意。&lt;/p&gt;
 &lt;p&gt;『會變成這樣，不都是因為你嗎，你這個壞蛋。』&lt;br&gt;
-若不是因為你，若不是因為這詛咒般的力量，或許就算一輩子在街頭乞討，我也不會落到靈魂破碎的下場。&lt;/p&gt;</description></item><item><title>First Post</title><link>https://zak-ke.github.io/posts/first-post/</link><pubDate>Thu, 18 Sep 2025 07:31:24 +0800</pubDate><guid>https://zak-ke.github.io/posts/first-post/</guid><description>&lt;p&gt;這是我的第一篇測試文章！&lt;/p&gt;</description></item><item><title>Second Post</title><link>https://zak-ke.github.io/posts/second-post/</link><pubDate>Thu, 18 Sep 2025 07:31:24 +0800</pubDate><guid>https://zak-ke.github.io/posts/second-post/</guid><description>&lt;p&gt;這是我的第二篇測試文章！&lt;/p&gt;</description></item><item><title>Hello</title><link>https://zak-ke.github.io/posts/hello/</link><pubDate>Thu, 18 Sep 2025 07:02:21 +0800</pubDate><guid>https://zak-ke.github.io/posts/hello/</guid><description/></item></channel></rss>
+若不是因為你，若不是因為這詛咒般的力量，或許就算一輩子在街頭乞討，我也不會落到靈魂破碎的下場。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>https://zak-ke.github.io/posts/first-post/</link>
+      <pubDate>Thu, 18 Sep 2025 07:31:24 +0800</pubDate>
+      <guid>https://zak-ke.github.io/posts/first-post/</guid>
+      <description>&lt;p&gt;這是我的第一篇測試文章！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second Post</title>
+      <link>https://zak-ke.github.io/posts/second-post/</link>
+      <pubDate>Thu, 18 Sep 2025 07:31:24 +0800</pubDate>
+      <guid>https://zak-ke.github.io/posts/second-post/</guid>
+      <description>&lt;p&gt;這是我的第二篇測試文章！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>https://zak-ke.github.io/posts/hello/</link>
+      <pubDate>Thu, 18 Sep 2025 07:02:21 +0800</pubDate>
+      <guid>https://zak-ke.github.io/posts/hello/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
