@@ -1,4 +1,4 @@
-baseURL = "https://zak-ke.github.io/zak-ke/"
+baseURL = "https://zak-ke.github.io/"
 publishDir = "docs"
 languageCode = "zh-tw"
 title = "札刻 | Zak刻 (Zak-Ke)"
